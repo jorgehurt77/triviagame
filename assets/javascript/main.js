@@ -6,25 +6,25 @@ $(document).ready (function(){
     //questions data
     let questions = [
         {
-            "question": "'Newfie' is the abbreviation for what breed?",
-            "answers": ["pitbull", "kangal", "Newfoundland"],
-            "correctAnswer":"Newfoundland",
-            "image": "hello world"
+            "question": "'Next World Cup' to be hosted in?",
+            "answers": ["USA", "Colombia", "Russia", "France"],
+            "correctAnswer":"Russia",
+    
         },
         {
-            "question": "What is the typical height and weight of a male Newf?",
-            "answers": ["4ft, 100lbs/45kg", "4.5feet, 130lbs/59kg", "Salad", "Hummus"],
-            "correctAnswer": "Donuts",
+            "question": "How Many Teams Compete in the World Cup?",
+            "answers": ["32", "12", "64", "80"],
+            "correctAnswer": "32",
         },
         {
-            "question": "What is Homers favorite snack?",
-            "answers": ["Beer", "Donuts", "Salad", "Hummus"],
-            "correctAnswer": "Donuts",
+            "question": "What Team is from South America?",
+            "answers": ["Spain", "Island", "Chile", "Australia"],
+            "correctAnswer": "Chile",
         },
         {
-            "question": "What is Homers favorite snack?",
-            "answers": ["Beer", "Donuts", "Salad", "Hummus"],
-            "correctAnswer": "Donuts",
+            "question": "What Year is the Next World Cup?",
+            "answers": ["2018", "2020", "2021", "2022"],
+            "correctAnswer": "2018",
         }
     ];
     let userAnswers = [];
