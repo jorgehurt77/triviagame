@@ -6,20 +6,20 @@ $(document).ready (function(){
     //questions data
     let questions = [
         {
-            "question": "'Next World Cup' to be hosted in?",
+            "question": "Next World Cup to be hosted in?",
             "answers": ["USA", "Colombia", "Russia", "France"],
             "correctAnswer":"Russia",
     
         },
         {
             "question": "How Many Teams Compete in the World Cup?",
-            "answers": ["32", "12", "64", "80"],
+            "answers": ["32", "12", "64", "24"],
             "correctAnswer": "32",
         },
         {
-            "question": "What Team is from South America?",
-            "answers": ["Spain", "Island", "Chile", "Australia"],
-            "correctAnswer": "Chile",
+            "question": "What Team Was The Last World Cup Champion?",
+            "answers": ["Spain", "Germany", "Chile", "Australia"],
+            "correctAnswer": "Germany",
         },
         {
             "question": "What Year is the Next World Cup?",

@@ -1,7 +1,17 @@
 body {
-    background: lightblue
+    background-image: url('./../images/fifa2.jpg');
+    background-size: 100%;
+    color: rgb(228, 20, 20);
+    text-align: center;
 }
 
-.bold{
+.js-start{
     font-weight: bold;
+    font-size: 100%
+}
+
+.js-questions{
+    font-weight: bold;
+    font-size: 150%;
+    color: black;
 }
